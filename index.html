@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>yz3systems — systems & automation</title>
+  <meta name="description" content="yz3systems — systems & automation" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Background noise / vignette -->
+  <div class="bg-noise" aria-hidden="true"></div>
+  <div class="bg-vignette" aria-hidden="true"></div>
+
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="#">
+        <span class="brand-dot" aria-hidden="true"></span>
+        <span class="brand-name">yz3systems</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="hamburger" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <main class="panel">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-left">
+          <h1 class="title">yz3systems</h1>
+          <p class="subtitle">systems &amp; automation</p>
+
+          <p class="lead">
+            Automation tools, dashboards, and backend systems.<br />
+            Focused on clean logic, stability, and control.
+          </p>
+
+          <div class="cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-right" aria-hidden="true">
+          <!-- Minimal node diagram -->
+          <svg class="diagram" viewBox="0 0 520 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g opacity="0.9">
+              <path d="M120 160 L240 110 L360 150 L450 80" stroke="rgba(245,245,245,0.10)" stroke-width="2"/>
+              <path d="M240 110 L240 210" stroke="rgba(245,245,245,0.08)" stroke-width="2"/>
+              <path d="M360 150 L360 230" stroke="rgba(245,245,245,0.06)" stroke-width="2"/>
+              <rect x="105" y="145" width="30" height="30" rx="6" fill="rgba(245,245,245,0.14)"/>
+              <rect x="225" y="95"  width="30" height="30" rx="6" fill="rgba(245,245,245,0.12)"/>
+              <rect x="345" y="135" width="30" height="30" rx="6" fill="rgba(245,245,245,0.10)"/>
+              <rect x="435" y="65"  width="30" height="30" rx="6" fill="rgba(245,245,245,0.16)"/>
+              <rect x="225" y="195" width="30" height="30" rx="6" fill="rgba(245,245,245,0.08)"/>
+              <rect x="345" y="215" width="30" height="30" rx="6" fill="rgba(245,245,245,0.06)"/>
+            </g>
+            <g opacity="0.35">
+              <path d="M40 40 H500" stroke="rgba(245,245,245,0.06)"/>
+              <path d="M40 110 H500" stroke="rgba(245,245,245,0.05)"/>
+              <path d="M40 180 H500" stroke="rgba(245,245,245,0.04)"/>
+              <path d="M40 250 H500" stroke="rgba(245,245,245,0.03)"/>
+              <path d="M100 20 V270" stroke="rgba(245,245,245,0.03)"/>
+              <path d="M220 20 V270" stroke="rgba(245,245,245,0.03)"/>
+              <path d="M340 20 V270" stroke="rgba(245,245,245,0.03)"/>
+              <path d="M460 20 V270" stroke="rgba(245,245,245,0.03)"/>
+            </g>
+          </svg>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-- WHAT WE BUILD -->
+      <section class="section" id="about">
+        <div class="section-head">
+          <h2>What we build</h2>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <h3>Automation</h3>
+            <p>Scripts, tasks, integrations.</p>
+          </article>
+
+          <article class="card">
+            <h3>Dashboards</h3>
+            <p>Control panels, configuration UIs.</p>
+          </article>
+
+          <article class="card">
+            <h3>Systems</h3>
+            <p>Services, backend logic, monitoring.</p>
+          </article>
+        </div>
+
+        <div class="section-link">
+          <a href="#projects">See all projects <span aria-hidden="true">›</span></a>
+        </div>
+      </section>
+
+      <div class="divider faint"></div>
+
+      <!-- PROJECTS + PRINCIPLES/CONTACT GRID -->
+      <section class="section grid" id="projects">
+        <div class="left">
+          <h2>Featured Projects</h2>
+
+          <div class="project-list">
+            <a class="project" href="#" aria-label="yz3systems-dashboard">
+              <div class="p-title">yz3systems-dashboard</div>
+              <div class="p-desc">Control panel for bots and services.</div>
+              <div class="p-meta">prototype</div>
+            </a>
+
+            <a class="project" href="#" aria-label="yz3systems-scripts">
+              <div class="p-title">yz3systems-scripts</div>
+              <div class="p-desc">Automation utilities and helpers.</div>
+              <div class="p-meta">active</div>
+            </a>
+
+            <a class="project" href="#" aria-label="yz3systems-labs">
+              <div class="p-title">yz3systems-labs</div>
+              <div class="p-desc">Experiments, tests, iterations.</div>
+              <div class="p-meta">lab</div>
+            </a>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="two-col">
+            <div class="block">
+              <h2>Principles</h2>
+              <ul class="bullets">
+                <li>Build stable systems.</li>
+                <li>Automate repetitive work.</li>
+                <li>Keep interfaces minimal.</li>
+                <li>Prefer clarity over complexity.</li>
+              </ul>
+            </div>
+
+            <div class="block" id="contact">
+              <h2>Contact</h2>
+              <dl class="contact">
+                <div>
+                  <dt>Email</dt>
+                  <dd><a href="mailto:contact@yz3systems.com">contact@yz3systems.com</a></dd>
+                </div>
+                <div>
+                  <dt>GitHub</dt>
+                  <dd><a href="https://github.com/" target="_blank" rel="noreferrer">github.com/yz3systems</a></dd>
+                </div>
+              </dl>
+
+              <div class="tagline">systems &amp; automation</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-left">
+          <span class="footer-mark" aria-hidden="true"></span>
+          <span>© yz3systems</span>
+        </div>
+        <div class="footer-right">systems &amp; automation</div>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
